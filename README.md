@@ -34,12 +34,6 @@ npm install
 ```bash
 cp .env.example .env
 ```
-然后编辑 `.env` 文件，填入你的配置信息：
-- `PRIVATE_KEY`: 你的 DFC Chain 私钥
-- `API_KEY`: API 密钥（如果需要）
-- `NODE_ENV`: 环境设置（development/production）
-- `PORT`: 服务端口号
-
 4. 启动开发服务器
 ```bash
 npm start
