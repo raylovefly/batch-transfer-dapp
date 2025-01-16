@@ -1,0 +1,84 @@
+{
+  "name": "batch-transfer",
+  "version": "2.2.2",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.10.4",
+    "@chakra-ui/toast": "^7.0.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "framer-motion": "^10.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "solc": "^0.8.19",
+    "web-vitals": "^4.2.4",
+    "web3": "^4.16.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 WATCHPACK_POLLING=true FAST_REFRESH=false react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "gh-pages": "^6.3.0",
+    "hardhat": "^2.22.17",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "source-map-loader": "^5.0.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4"
+  },
+  "description": "批量转账DAPP",
+  "main": "config-overrides.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barley1234567/batch-transfer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barley1234567/batch-transfer/issues"
+  },
+  "homepage": "."
+}

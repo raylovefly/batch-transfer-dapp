@@ -1,0 +1,7 @@
+export const BatchStatus = {
+  PENDING: 'PENDING',
+  PROCESSING: 'PROCESSING',
+  COMPLETED: 'COMPLETED',
+  FAILED: 'FAILED',
+  STOPPED: 'STOPPED'
+}; 
